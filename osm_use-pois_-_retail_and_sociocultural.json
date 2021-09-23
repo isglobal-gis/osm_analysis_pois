@@ -1,0 +1,34 @@
+{
+    "type:node,way": {
+        "key:amenity": {
+            "cat:public_service": [ "fire_station", "police", "post_office", "townhall" ],
+            "cat:others": [ "childcare", "marketplace", "place_of_worship" ],
+            "cat:entertainment_arts_culture": [ "arts_centre", "cinema", "community_centre", "theatre" ],
+            "cat:financial": [ "bank" ],
+            "cat:healthcare": [ "clinic", "dentist", "doctors", "hospital", "pharmacy", "social_facility" ],
+            "cat:sustenance": [ "bar", "cafe", "fast_food", "ice_cream", "pub", "restaurant" ],
+            "cat:education": [ "college", "kindergarten", "library", "school", "university" ]
+        },
+        "key:historic": {
+            "cat:historic": [ "archaeological_site", "building", "castle", "memorial", "monument" ]
+        },
+        "key:leisure": {
+            "cat:leisure": [ "common", "fitness_centre", "garden", "nature_reserve", "park", "pitch", "playground", "sports_centre", "stadium" ]
+        },
+        "key:tourism": {
+            "cat:tourism": [ "artwork", "attraction", "hostel", "hotel", "information", "museum" ]
+        },
+        "key:shop": {
+            "cat:do-it-yourself_household_building_materials_gardening": [ "doityourself", "florist", "garden_centre", "hardware" ],
+            "cat:food_beverages": [ "alcohol", "bakery", "beverages", "butcher", "confectionery", "convenience", "greengrocer" ],
+            "cat:stationery_gifts_books_newspapers": [ "books", "gift", "newsagent", "stationery" ],
+            "cat:furniture_and_interior": [ "furniture" ],
+            "cat:clothing_shoes_accessories": [ "clothes", "jewelry", "shoes", "tailor" ],
+            "cat:health_and_beauty": [ "beauty", "chemist", "cosmetics", "hairdresser", "optician" ],
+            "cat:others": [ "dry_cleaning", "funeral_directors", "laundry", "pet", "travel_agency" ],
+            "cat:discount_store_charity": [ "variety_store" ],
+            "cat:electronics": [ "computer", "electronics", "mobile_phone" ],
+            "cat:general_store_department_store_mall": [ "department_store", "kiosk", "mall", "supermarket" ]
+        }
+    }
+}
